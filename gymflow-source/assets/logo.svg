@@ -1,0 +1,11 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ShreeHawk logo">
+  <g fill="#111">
+    <path d="M14 46 L46 10 L74 42 L62 54 L74 76 L46 76 Z" />
+    <path d="M146 46 L114 10 L86 42 L98 54 L86 76 L114 76 Z" />
+    <path d="M72 42 L88 42 L84 86 L76 86 Z" />
+    <path d="M60 86 L100 86 L92 112 L68 112 Z" />
+    <rect x="58" y="114" width="44" height="10" rx="4" />
+    <rect x="52" y="126" width="56" height="10" rx="4" />
+    <rect x="46" y="138" width="68" height="10" rx="4" />
+  </g>
+</svg>
