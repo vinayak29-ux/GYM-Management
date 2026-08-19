@@ -1,6 +1,6 @@
 :root {
   --bg: #F6F7F9;
-  --surface: #FFFFFF;
+  --surface: #8c8787;
   --surface-2: #F0F4F6;
   --ink: #172033;
   --muted: #6B7788;
@@ -329,7 +329,7 @@ button {
   box-shadow: 0 1px 2px rgba(23, 32, 51, 0.04);
 }
 
-.metric-card > div:last-child {
+.metric-card>div:last-child {
   min-width: 0;
 }
 
@@ -470,7 +470,7 @@ button {
   border-bottom: 1px solid #EDF1F5;
 }
 
-.mini-row > div {
+.mini-row>div {
   min-width: 0;
 }
 
@@ -601,7 +601,7 @@ button {
   min-width: 220px;
 }
 
-.member-cell > div {
+.member-cell>div {
   min-width: 0;
 }
 
@@ -748,7 +748,7 @@ button {
   padding: 20px;
 }
 
-.report-tile + .report-tile {
+.report-tile+.report-tile {
   border-left: 1px solid var(--line);
 }
 
@@ -967,6 +967,7 @@ button {
 }
 
 @media (max-width: 1180px) {
+
   .metrics-grid,
   .metrics-grid.three {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1088,13 +1089,14 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .report-tile + .report-tile {
+  .report-tile+.report-tile {
     border-left: 0;
     border-top: 1px solid var(--line);
   }
 }
 
 @media (max-width: 640px) {
+
   .metrics-grid,
   .metrics-grid.three,
   .plan-grid,
