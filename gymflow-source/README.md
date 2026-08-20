@@ -34,4 +34,5 @@ Open the browser console and run:
 GymFlow.DB.reset();
 location.reload();
 ```
-changes happen 
+changed notion api
+
